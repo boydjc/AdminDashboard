@@ -47,15 +47,15 @@
 
 #titleBar {
 	display: grid;
-	grid-template-columns: 2fr 1fr;
+	grid-template-columns: 1.8fr 1fr;
 	align-items: center;
-	gap: 100px;
 }
 
 #searchCont {
 	display: grid;
 	grid-template-columns: 1fr 8fr;
 	gap: 20px;
+	padding-right: 40px;
 }
 
 #searchCont img {
@@ -64,6 +64,26 @@
 
 #page-search {
 	height: 25px;
+	border-radius: 15px;
+}
+
+#profileInfo {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	align-items: center;
+	justify-items: center;
+}
+
+#profileInfoNotifyImg {
+	justify-self: right;
+}
+
+#profileInfoUserImg {
+	border-radius: 40px;
+}
+
+#profileInfo p {
+	justify-self: left;
 }
 
 #mainDash {
