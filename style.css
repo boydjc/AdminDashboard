@@ -168,6 +168,7 @@
 	border: 1px solid black;
 	border-radius: 30px;
 	font-weight: bold;
+	font-size: 16px;
 	background-color: var(--palette-color-one);
 	color: var(--palette-color-three);
 }
