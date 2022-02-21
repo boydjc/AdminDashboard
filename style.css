@@ -73,7 +73,8 @@
 	grid-template-rows: 1fr 1fr;
 	align-items: center;
 	background-color: var(--palette-color-four);
-	box-shadow: 10px 10px 10px #000;
+	box-shadow: 0px 2px 5px #000;
+	z-index: 1;
 }
 
 #searchCont {
@@ -209,6 +210,7 @@
 	align-items: center;
 	height: 300px;
 	background-color: var(--palette-color-four);
+	box-shadow: 3px 3px 10px #000;
 }
 
 .projectControls {
@@ -222,7 +224,7 @@
 }
 
 .projectDescription {
-	padding: 10px;
+	padding: 30px 10px 10px 10px;
 	display: grid;
 	grid-template-rows: 1fr 3fr;
 }
@@ -254,11 +256,11 @@
 
 #announcements {
 	display: grid;
-	border: 1px solid black;
 	grid-template-rows: 1fr 1fr 1fr;
 	border-radius: 10px;
 	padding: 20px;
 	background-color: var(--palette-color-four);
+	box-shadow: 3px 3px 10px #000;
 }
 
 #announcements div {
@@ -299,12 +301,12 @@
 #friends {
 	display: grid;
 	grid-template-rows: repeat(4, 100px);
-	border: 1px solid black;
 	border-radius: 10px;
 	align-items: center;
 	padding: 5px;
 	height: 400px;
 	background-color: var(--palette-color-four);
+	box-shadow: 3px 3px 10px #000;
 }
 
 .indivFriendCont {
